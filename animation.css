@@ -1,0 +1,51 @@
+.div1{
+background-color: pink;
+ height: 200px;
+width: 200px;
+border-radius: 50%;
+
+position: absolute;
+animation-name:move_div ;
+animation-duration: 6s;
+animation-delay: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+
+@keyframes move_div{
+0%
+{
+left: 0;
+top: 0;
+
+background-color: brown;
+}
+25%{
+left: 400;
+top: 0px;
+background-color: rgb(230, 21, 157);
+}
+50%{
+left: 400px;
+top: 400px;
+background-color: rgb(21, 126, 192);
+}
+
+
+75%
+{
+
+    left: 0;
+
+
+    top: 400px;
+}
+100%{
+
+    left: 0;
+    top:                                                                                                                                                    0px;
+}
+
+}
